@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup-container" id="pop-up-main">
+        <div class="popup">
+            <p>Enter username</p>
+            <input type="text" placeholder="Username" id="usernameText">
+            <button id="btnCreate">Submit</button>
+        </div>
+    </div>
+    <div class="container" id="text-thing">
+        <div class="content">
+            <input type="text" placeholder="type the name you want to connect to (Pot Hair)" id="connectName">
+            <button id="btnConnect">Connect</button>
+            <button id="btnSend" style="display: none;">Send</button>
+            <button id="btnStream" style="display: none;">Stream</button>
+            <video autoplay id="videoRemote"></video>
+        </div>
+    </div>
+    <script src="https://unpkg.com/peerjs@1.5.1/dist/peerjs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+"name": "PwaWebXRTest",
+"short_name": "PWAXR",
+"start_url": "/",
+"theme_color": "#000000",
+"background_color": "#000000",
+"orientation": "portrait",
+"display": "fullscreen",
+"icons": [
+    {
+        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+]
+}
