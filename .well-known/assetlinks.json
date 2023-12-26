@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.yepistream.twa",
+        "sha256_cert_fingerprints": ["2E:D7:9C:49:18:E6:ED:C2:A4:8A:4D:FD:6C:0D:95:7C:04:C2:88:29:4E:D7:31:C9:9F:FC:E0:41:E3:F7:4E:B1"]
+      }
+    }]
