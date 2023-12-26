@@ -1,7 +1,7 @@
 {
   "name": "PwaWebXRTest",
   "short_name": "PWAXR",
-  "start_url": "/",
+  "start_url": "/PwaBuilderTestThing?fullscreen=true",
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "landscape",
@@ -25,5 +25,6 @@
   "display_override": [
     "fullscreen",
     "window-controls-overlay"
-  ]
+  ],
+  "prefer_related_applications": false
 }
